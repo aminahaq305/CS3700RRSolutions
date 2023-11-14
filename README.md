@@ -42,8 +42,13 @@ This project can also be expanded and redesigned for other transportation servic
 The testapp repository has a sample express app which can be used to perform CRUD operations on the DB using Postman or Insomnia, or a frontend. 
 
 In order to run the server, clone the repository, and run the following commands in your terminal in the /testapp/server directory:
+
 -- npm install express
+
 -- npm install mysql2
+
 -- npm install cors
+
 -- node index.js
+
 You need to ensure that you have node and a node package manager installed. Then simply use the index.js file to figure out the routes and make GET or POST requests using Postman or Insomnia.
