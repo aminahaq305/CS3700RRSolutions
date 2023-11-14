@@ -52,3 +52,14 @@ In order to run the server, clone the repository, and run the following commands
 -- node index.js
 
 You need to ensure that you have node and a node package manager installed. Then simply use the index.js file to figure out the routes and make GET or POST requests using Postman or Insomnia.
+
+To run the frontend provided launch another terminal window and run the following commands in the /testapp/client directory:
+
+-- npm install react-router-dom
+
+-- npm install axios
+
+-- npm start
+
+The app will launch at localhost:3000, and the server will be running at localhost:3002. Your DB needs to be set up on a separate port.
+
