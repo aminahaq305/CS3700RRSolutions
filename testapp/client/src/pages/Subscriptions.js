@@ -6,11 +6,9 @@ function Subscriptions() {
   const [postList, setPostList] = useState([]);
 
   useEffect(() => {
-    Axios.get("https://railroad-backend.onrender.com/subscription/get").then(
-      (data) => {
-        setPostList(data.data);
-      }
-    );
+    Axios.get("http://localhost:3002/subscription/get").then((data) => {
+      setPostList(data.data);
+    });
   }, []);
 
   return (
