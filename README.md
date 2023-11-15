@@ -43,11 +43,7 @@ The testapp repository has a sample express app which can be used to perform CRU
 
 In order to run the server, clone the repository, and run the following commands in your terminal in the /testapp/server directory:
 
--- npm install express
-
--- npm install mysql2
-
--- npm install cors
+-- npm install
 
 -- node index.js
 
@@ -55,9 +51,7 @@ You need to ensure that you have node and a node package manager installed. Then
 
 To run the frontend provided launch another terminal window and run the following commands in the /testapp/client directory:
 
--- npm install react-router-dom
-
--- npm install axios
+-- npm install
 
 -- npm start
 
